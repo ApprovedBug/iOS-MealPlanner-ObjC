@@ -17,6 +17,9 @@
 		713002B62438F9EF005DBADF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 713002B52438F9EF005DBADF /* main.m */; };
 		713002C02438F9F0005DBADF /* APBMealPlannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 713002BF2438F9F0005DBADF /* APBMealPlannerTests.m */; };
 		713002CB2438F9F0005DBADF /* APBMealPlannerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 713002CA2438F9F0005DBADF /* APBMealPlannerUITests.m */; };
+		CC20A5EDA47A9DF49E68F81D /* Pods_APBMealPlanner_APBMealPlannerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 779FECA12E1C919D205B19DE /* Pods_APBMealPlanner_APBMealPlannerUITests.framework */; };
+		D75650928360FE2DBD156648 /* Pods_APBMealPlanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9603B52F24FAC23019647DEC /* Pods_APBMealPlanner.framework */; };
+		F557BAED3FF17168998224B0 /* Pods_APBMealPlannerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 334837DEDEDB1B8F7DB1455C /* Pods_APBMealPlannerTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1674FDE6A7976C3E0EEE278E /* Pods-APBMealPlannerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APBMealPlannerTests.release.xcconfig"; path = "Target Support Files/Pods-APBMealPlannerTests/Pods-APBMealPlannerTests.release.xcconfig"; sourceTree = "<group>"; };
+		334837DEDEDB1B8F7DB1455C /* Pods_APBMealPlannerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APBMealPlannerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C4BCE7CC1302BD3161D58BF /* Pods-APBMealPlannerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APBMealPlannerTests.debug.xcconfig"; path = "Target Support Files/Pods-APBMealPlannerTests/Pods-APBMealPlannerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		44459FF50DED14858B98AA1C /* Pods-APBMealPlanner-APBMealPlannerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APBMealPlanner-APBMealPlannerUITests.debug.xcconfig"; path = "Target Support Files/Pods-APBMealPlanner-APBMealPlannerUITests/Pods-APBMealPlanner-APBMealPlannerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6CCF7771E776B12DE3B62C73 /* Pods-APBMealPlanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APBMealPlanner.release.xcconfig"; path = "Target Support Files/Pods-APBMealPlanner/Pods-APBMealPlanner.release.xcconfig"; sourceTree = "<group>"; };
 		7130029D2438F9EE005DBADF /* APBMealPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APBMealPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		713002A02438F9EE005DBADF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		713002A12438F9EE005DBADF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -56,6 +64,10 @@
 		713002C62438F9F0005DBADF /* APBMealPlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APBMealPlannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		713002CA2438F9F0005DBADF /* APBMealPlannerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APBMealPlannerUITests.m; sourceTree = "<group>"; };
 		713002CC2438F9F0005DBADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		779FECA12E1C919D205B19DE /* Pods_APBMealPlanner_APBMealPlannerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APBMealPlanner_APBMealPlannerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9603B52F24FAC23019647DEC /* Pods_APBMealPlanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APBMealPlanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7484B8093348C85527F8435 /* Pods-APBMealPlanner-APBMealPlannerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APBMealPlanner-APBMealPlannerUITests.release.xcconfig"; path = "Target Support Files/Pods-APBMealPlanner-APBMealPlannerUITests/Pods-APBMealPlanner-APBMealPlannerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E7A21A0A909998A47FE99CB4 /* Pods-APBMealPlanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APBMealPlanner.debug.xcconfig"; path = "Target Support Files/Pods-APBMealPlanner/Pods-APBMealPlanner.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D75650928360FE2DBD156648 /* Pods_APBMealPlanner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F557BAED3FF17168998224B0 /* Pods_APBMealPlannerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC20A5EDA47A9DF49E68F81D /* Pods_APBMealPlanner_APBMealPlannerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +105,8 @@
 				713002BE2438F9F0005DBADF /* APBMealPlannerTests */,
 				713002C92438F9F0005DBADF /* APBMealPlannerUITests */,
 				7130029E2438F9EE005DBADF /* Products */,
+				C1B7F4D2564F462CD0BEB57E /* Pods */,
+				74EB1A682F811070B8FAD42B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +157,30 @@
 			path = APBMealPlannerUITests;
 			sourceTree = "<group>";
 		};
+		74EB1A682F811070B8FAD42B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9603B52F24FAC23019647DEC /* Pods_APBMealPlanner.framework */,
+				779FECA12E1C919D205B19DE /* Pods_APBMealPlanner_APBMealPlannerUITests.framework */,
+				334837DEDEDB1B8F7DB1455C /* Pods_APBMealPlannerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1B7F4D2564F462CD0BEB57E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7A21A0A909998A47FE99CB4 /* Pods-APBMealPlanner.debug.xcconfig */,
+				6CCF7771E776B12DE3B62C73 /* Pods-APBMealPlanner.release.xcconfig */,
+				44459FF50DED14858B98AA1C /* Pods-APBMealPlanner-APBMealPlannerUITests.debug.xcconfig */,
+				A7484B8093348C85527F8435 /* Pods-APBMealPlanner-APBMealPlannerUITests.release.xcconfig */,
+				3C4BCE7CC1302BD3161D58BF /* Pods-APBMealPlannerTests.debug.xcconfig */,
+				1674FDE6A7976C3E0EEE278E /* Pods-APBMealPlannerTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,6 +188,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 713002CF2438F9F0005DBADF /* Build configuration list for PBXNativeTarget "APBMealPlanner" */;
 			buildPhases = (
+				48D4BF7263FD08EA25D28FA4 /* [CP] Check Pods Manifest.lock */,
 				713002992438F9EE005DBADF /* Sources */,
 				7130029A2438F9EE005DBADF /* Frameworks */,
 				7130029B2438F9EE005DBADF /* Resources */,
@@ -164,6 +206,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 713002D22438F9F0005DBADF /* Build configuration list for PBXNativeTarget "APBMealPlannerTests" */;
 			buildPhases = (
+				A8E62BBAD06B84665B0091EA /* [CP] Check Pods Manifest.lock */,
 				713002B72438F9F0005DBADF /* Sources */,
 				713002B82438F9F0005DBADF /* Frameworks */,
 				713002B92438F9F0005DBADF /* Resources */,
@@ -182,6 +225,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 713002D52438F9F0005DBADF /* Build configuration list for PBXNativeTarget "APBMealPlannerUITests" */;
 			buildPhases = (
+				006B64272143493203F18889 /* [CP] Check Pods Manifest.lock */,
 				713002C22438F9F0005DBADF /* Sources */,
 				713002C32438F9F0005DBADF /* Frameworks */,
 				713002C42438F9F0005DBADF /* Resources */,
@@ -264,6 +308,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		006B64272143493203F18889 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-APBMealPlanner-APBMealPlannerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48D4BF7263FD08EA25D28FA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-APBMealPlanner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8E62BBAD06B84665B0091EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-APBMealPlannerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		713002992438F9EE005DBADF /* Sources */ = {
@@ -441,6 +554,7 @@
 		};
 		713002D02438F9F0005DBADF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7A21A0A909998A47FE99CB4 /* Pods-APBMealPlanner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -457,6 +571,7 @@
 		};
 		713002D12438F9F0005DBADF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CCF7771E776B12DE3B62C73 /* Pods-APBMealPlanner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -473,6 +588,7 @@
 		};
 		713002D32438F9F0005DBADF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C4BCE7CC1302BD3161D58BF /* Pods-APBMealPlannerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -492,6 +608,7 @@
 		};
 		713002D42438F9F0005DBADF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1674FDE6A7976C3E0EEE278E /* Pods-APBMealPlannerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -511,6 +628,7 @@
 		};
 		713002D62438F9F0005DBADF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44459FF50DED14858B98AA1C /* Pods-APBMealPlanner-APBMealPlannerUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = APBMealPlannerUITests/Info.plist;
@@ -528,6 +646,7 @@
 		};
 		713002D72438F9F0005DBADF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7484B8093348C85527F8435 /* Pods-APBMealPlanner-APBMealPlannerUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = APBMealPlannerUITests/Info.plist;
