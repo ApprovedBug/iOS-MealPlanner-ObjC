@@ -3,20 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		713002A22438F9EE005DBADF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 713002A12438F9EE005DBADF /* AppDelegate.m */; };
-		713002A52438F9EE005DBADF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 713002A42438F9EE005DBADF /* SceneDelegate.m */; };
-		713002A82438F9EE005DBADF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 713002A72438F9EE005DBADF /* ViewController.m */; };
-		713002AB2438F9EE005DBADF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 713002A92438F9EE005DBADF /* Main.storyboard */; };
 		713002AE2438F9EE005DBADF /* APBMealPlanner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 713002AC2438F9EE005DBADF /* APBMealPlanner.xcdatamodeld */; };
 		713002B02438F9EF005DBADF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 713002AF2438F9EF005DBADF /* Assets.xcassets */; };
 		713002B32438F9EF005DBADF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 713002B12438F9EF005DBADF /* LaunchScreen.storyboard */; };
 		713002B62438F9EF005DBADF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 713002B52438F9EF005DBADF /* main.m */; };
 		713002C02438F9F0005DBADF /* APBMealPlannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 713002BF2438F9F0005DBADF /* APBMealPlannerTests.m */; };
 		713002CB2438F9F0005DBADF /* APBMealPlannerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 713002CA2438F9F0005DBADF /* APBMealPlannerUITests.m */; };
+		715C114B2440B6F80017237F /* APBLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 715C114A2440B6F80017237F /* APBLoginView.m */; };
+		715C114F2440C14F0017237F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 715C114D2440C14F0017237F /* Localizable.strings */; };
+		71BFFA79243E48E000D14A1B /* APBLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BFFA78243E48E000D14A1B /* APBLoginViewController.m */; };
 		CC20A5EDA47A9DF49E68F81D /* Pods_APBMealPlanner_APBMealPlannerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 779FECA12E1C919D205B19DE /* Pods_APBMealPlanner_APBMealPlannerUITests.framework */; };
 		D75650928360FE2DBD156648 /* Pods_APBMealPlanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9603B52F24FAC23019647DEC /* Pods_APBMealPlanner.framework */; };
 		F557BAED3FF17168998224B0 /* Pods_APBMealPlannerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 334837DEDEDB1B8F7DB1455C /* Pods_APBMealPlannerTests.framework */; };
@@ -48,11 +48,6 @@
 		7130029D2438F9EE005DBADF /* APBMealPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APBMealPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		713002A02438F9EE005DBADF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		713002A12438F9EE005DBADF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		713002A32438F9EE005DBADF /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		713002A42438F9EE005DBADF /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		713002A62438F9EE005DBADF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		713002A72438F9EE005DBADF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		713002AA2438F9EE005DBADF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		713002AD2438F9EE005DBADF /* APBMealPlanner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = APBMealPlanner.xcdatamodel; sourceTree = "<group>"; };
 		713002AF2438F9EF005DBADF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		713002B22438F9EF005DBADF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -64,6 +59,13 @@
 		713002C62438F9F0005DBADF /* APBMealPlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APBMealPlannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		713002CA2438F9F0005DBADF /* APBMealPlannerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APBMealPlannerUITests.m; sourceTree = "<group>"; };
 		713002CC2438F9F0005DBADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		715C11492440B6F80017237F /* APBLoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APBLoginView.h; sourceTree = "<group>"; };
+		715C114A2440B6F80017237F /* APBLoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APBLoginView.m; sourceTree = "<group>"; };
+		715C114C2440C0C10017237F /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		715C114E2440C14F0017237F /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		715C11512440C15E0017237F /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		71BFFA77243E48E000D14A1B /* APBLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APBLoginViewController.h; sourceTree = "<group>"; };
+		71BFFA78243E48E000D14A1B /* APBLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APBLoginViewController.m; sourceTree = "<group>"; };
 		779FECA12E1C919D205B19DE /* Pods_APBMealPlanner_APBMealPlannerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APBMealPlanner_APBMealPlannerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9603B52F24FAC23019647DEC /* Pods_APBMealPlanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APBMealPlanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7484B8093348C85527F8435 /* Pods-APBMealPlanner-APBMealPlannerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APBMealPlanner-APBMealPlannerUITests.release.xcconfig"; path = "Target Support Files/Pods-APBMealPlanner-APBMealPlannerUITests/Pods-APBMealPlanner-APBMealPlannerUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -123,18 +125,8 @@
 		7130029F2438F9EE005DBADF /* APBMealPlanner */ = {
 			isa = PBXGroup;
 			children = (
-				713002A02438F9EE005DBADF /* AppDelegate.h */,
-				713002A12438F9EE005DBADF /* AppDelegate.m */,
-				713002A32438F9EE005DBADF /* SceneDelegate.h */,
-				713002A42438F9EE005DBADF /* SceneDelegate.m */,
-				713002A62438F9EE005DBADF /* ViewController.h */,
-				713002A72438F9EE005DBADF /* ViewController.m */,
-				713002A92438F9EE005DBADF /* Main.storyboard */,
-				713002AF2438F9EF005DBADF /* Assets.xcassets */,
-				713002B12438F9EF005DBADF /* LaunchScreen.storyboard */,
-				713002B42438F9EF005DBADF /* Info.plist */,
-				713002B52438F9EF005DBADF /* main.m */,
-				713002AC2438F9EE005DBADF /* APBMealPlanner.xcdatamodeld */,
+				71BFFA75243E47B800D14A1B /* Classes */,
+				71BFFA74243E47A400D14A1B /* Supporting Files */,
 			);
 			path = APBMealPlanner;
 			sourceTree = "<group>";
@@ -157,6 +149,40 @@
 			path = APBMealPlannerUITests;
 			sourceTree = "<group>";
 		};
+		71BFFA74243E47A400D14A1B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				713002AF2438F9EF005DBADF /* Assets.xcassets */,
+				713002B12438F9EF005DBADF /* LaunchScreen.storyboard */,
+				713002B42438F9EF005DBADF /* Info.plist */,
+				713002B52438F9EF005DBADF /* main.m */,
+				713002AC2438F9EE005DBADF /* APBMealPlanner.xcdatamodeld */,
+				715C114D2440C14F0017237F /* Localizable.strings */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71BFFA75243E47B800D14A1B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				71BFFA76243E489C00D14A1B /* Login */,
+				713002A02438F9EE005DBADF /* AppDelegate.h */,
+				713002A12438F9EE005DBADF /* AppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		71BFFA76243E489C00D14A1B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				71BFFA77243E48E000D14A1B /* APBLoginViewController.h */,
+				71BFFA78243E48E000D14A1B /* APBLoginViewController.m */,
+				715C11492440B6F80017237F /* APBLoginView.h */,
+				715C114A2440B6F80017237F /* APBLoginView.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		74EB1A682F811070B8FAD42B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,7 +203,6 @@
 				3C4BCE7CC1302BD3161D58BF /* Pods-APBMealPlannerTests.debug.xcconfig */,
 				1674FDE6A7976C3E0EEE278E /* Pods-APBMealPlannerTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -192,6 +217,7 @@
 				713002992438F9EE005DBADF /* Sources */,
 				7130029A2438F9EE005DBADF /* Frameworks */,
 				7130029B2438F9EE005DBADF /* Resources */,
+				EB391660FF0EDAEFFE24CDF7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -229,6 +255,7 @@
 				713002C22438F9F0005DBADF /* Sources */,
 				713002C32438F9F0005DBADF /* Frameworks */,
 				713002C42438F9F0005DBADF /* Resources */,
+				10FD6E1BBA3C834AEE9A9571 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -269,6 +296,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = 713002942438F9EE005DBADF;
 			productRefGroup = 7130029E2438F9EE005DBADF /* Products */;
@@ -288,8 +316,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				713002B32438F9EF005DBADF /* LaunchScreen.storyboard in Resources */,
+				715C114F2440C14F0017237F /* Localizable.strings in Resources */,
 				713002B02438F9EF005DBADF /* Assets.xcassets in Resources */,
-				713002AB2438F9EE005DBADF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +358,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		10FD6E1BBA3C834AEE9A9571 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-APBMealPlanner-APBMealPlannerUITests/Pods-APBMealPlanner-APBMealPlannerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-APBMealPlanner-APBMealPlannerUITests/Pods-APBMealPlanner-APBMealPlannerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-APBMealPlanner-APBMealPlannerUITests/Pods-APBMealPlanner-APBMealPlannerUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		48D4BF7263FD08EA25D28FA4 /* [CP] Check Pods Manifest.lock */ = {
@@ -376,6 +421,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		EB391660FF0EDAEFFE24CDF7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-APBMealPlanner/Pods-APBMealPlanner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-APBMealPlanner/Pods-APBMealPlanner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-APBMealPlanner/Pods-APBMealPlanner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -384,10 +446,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				713002B62438F9EF005DBADF /* main.m in Sources */,
-				713002A82438F9EE005DBADF /* ViewController.m in Sources */,
+				715C114B2440B6F80017237F /* APBLoginView.m in Sources */,
 				713002AE2438F9EE005DBADF /* APBMealPlanner.xcdatamodeld in Sources */,
 				713002A22438F9EE005DBADF /* AppDelegate.m in Sources */,
-				713002A52438F9EE005DBADF /* SceneDelegate.m in Sources */,
+				71BFFA79243E48E000D14A1B /* APBLoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,20 +485,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		713002A92438F9EE005DBADF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				713002AA2438F9EE005DBADF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		713002B12438F9EF005DBADF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				713002B22438F9EF005DBADF /* Base */,
+				715C114C2440C0C10017237F /* es */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		715C114D2440C14F0017237F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				715C114E2440C14F0017237F /* Base */,
+				715C11512440C15E0017237F /* es */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -446,6 +510,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -504,6 +569,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -558,7 +624,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = APBMealPlanner/Info.plist;
+				INFOPLIST_FILE = "APBMealPlanner/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -575,7 +641,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = APBMealPlanner/Info.plist;
+				INFOPLIST_FILE = "APBMealPlanner/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

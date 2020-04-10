@@ -18,10 +18,14 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
+    # Project setup
+    - name: Project setup
+      run: pod install
+
     # Static code analysis
     - name: Analyze
-      run: xcodebuild -project APBMealPlanner.xcodeproj -scheme APBMealPlanner -sdk iphonesimulator13.2 clean analyze
+      run: xcodebuild -workspace APBMealPlanner.xcworkspace -scheme APBMealPlanner -sdk iphonesimulator13.2 clean analyze
       
     # Builds the application
     - name: Build and test
-      run: xcodebuild clean test -project APBMealPlanner.xcodeproj -scheme APBMealPlanner CODE_SIGN_IDENTITY="" -destination 'platform=iOS Simulator,OS=13.3,name=iPhone 11 Pro' CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
+      run: xcodebuild clean test -workspace APBMealPlanner.xcworkspace -scheme APBMealPlanner CODE_SIGN_IDENTITY="" -destination 'platform=iOS Simulator,OS=13.3,name=iPhone 11 Pro' CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
