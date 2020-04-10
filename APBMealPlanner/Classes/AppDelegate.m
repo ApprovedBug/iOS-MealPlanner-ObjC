@@ -2,41 +2,55 @@
 //  AppDelegate.m
 //  APBMealPlanner
 //
-//  Created by Moseley, Jack, Vodafone Group on 04/04/2020.
+//  Created by ApprovedBug on 04/04/2020.
 //  Copyright © 2020 ApprovedBug. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import "APBLoginViewController.h"
 
-@interface AppDelegate ()
+@interface AppDelegate () {
+    UINavigationController *_navController;
+}
 
 @end
 
 @implementation AppDelegate
 
+- (UINavigationController *)navController {
+
+    if (!_navController) {
+        _navController = [[UINavigationController alloc] initWithRootViewController:[[APBLoginViewController alloc] init]];
+        [_navController setNavigationBarHidden:YES];
+    }
+
+    return _navController;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    [self.window setRootViewController:self.navController];
+    [self.window makeKeyAndVisible];
+
+    [[FBSDKApplicationDelegate sharedInstance] application:application
+                             didFinishLaunchingWithOptions:launchOptions];
+
     return YES;
 }
 
+- (BOOL)application:(UIApplication *)application
+            openURL:(NSURL *)url
+            options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
 
-#pragma mark - UISceneSession lifecycle
+    BOOL handled = [[FBSDKApplicationDelegate sharedInstance] application:application
+                                                                openURL:url
+                                                      sourceApplication:options[UIApplicationOpenURLOptionsSourceApplicationKey]
+                                                             annotation:options[UIApplicationOpenURLOptionsAnnotationKey]];
 
-
-- (UISceneConfiguration *)application:(UIApplication *)application configurationForConnectingSceneSession:(UISceneSession *)connectingSceneSession options:(UISceneConnectionOptions *)options {
-    // Called when a new scene session is being created.
-    // Use this method to select a configuration to create the new scene with.
-    return [[UISceneConfiguration alloc] initWithName:@"Default Configuration" sessionRole:connectingSceneSession.role];
+    return handled;
 }
-
-
-- (void)application:(UIApplication *)application didDiscardSceneSessions:(NSSet<UISceneSession *> *)sceneSessions {
-    // Called when the user discards a scene session.
-    // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
-    // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
-}
-
 
 #pragma mark - Core Data stack
 

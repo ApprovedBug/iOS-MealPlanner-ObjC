@@ -1,3 +1,31 @@
-PODFILE CHECKSUM: e82297b65544dc062c9152b950681060ee38da8d
+PODS:
+  - FBSDKCoreKit (6.3.0):
+    - FBSDKCoreKit/Basics (= 6.3.0)
+    - FBSDKCoreKit/Core (= 6.3.0)
+  - FBSDKCoreKit/Basics (6.3.0)
+  - FBSDKCoreKit/Core (6.3.0):
+    - FBSDKCoreKit/Basics
+  - FBSDKLoginKit (6.3.0):
+    - FBSDKLoginKit/Login (= 6.3.0)
+  - FBSDKLoginKit/Login (6.3.0):
+    - FBSDKCoreKit (~> 6.3.0)
+  - FLKAutoLayout (1.0.1)
+
+DEPENDENCIES:
+  - FBSDKLoginKit (= 6.3.0)
+  - FLKAutoLayout (= 1.0.1)
+
+SPEC REPOS:
+  trunk:
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - FLKAutoLayout
+
+SPEC CHECKSUMS:
+  FBSDKCoreKit: 5d55c8f3007c9c49b793617b9102e46355fc7e17
+  FBSDKLoginKit: d46aa04d9bb9990a4deb6441736fae24a8c94496
+  FLKAutoLayout: 37e1e09de6411dbee5526860d9f55d9063323ea8
+
+PODFILE CHECKSUM: 6522bc908e84ee1fc441a7f887212f8d8495e0ab
 
 COCOAPODS: 1.9.1

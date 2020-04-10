@@ -7,6 +7,9 @@ target 'APBMealPlanner' do
 
   # Pods for APBMealPlanner
 
+  pod 'FBSDKLoginKit', '6.3.0'
+  pod 'FLKAutoLayout', '1.0.1'
+
   target 'APBMealPlannerTests' do
     inherit! :search_paths
     # Pods for testing
