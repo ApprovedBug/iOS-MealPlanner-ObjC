@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  APBMealPlanner
+
+  Created by ApprovedBug on 10/04/2020.
+  Copyright © 2020 ApprovedBug. All rights reserved.
+*/
+
+// Login
+
+"login_welcome" = "Welcome to Meal Planner";
+"login_prompt" = "Please login to continue";
