@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		711C082924E0A2CE001CB121 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 715C114D2440C14F0017237F /* Localizable.strings */; };
 		713002A22438F9EE005DBADF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 713002A12438F9EE005DBADF /* AppDelegate.m */; };
 		713002AE2438F9EE005DBADF /* APBMealPlanner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 713002AC2438F9EE005DBADF /* APBMealPlanner.xcdatamodeld */; };
 		713002B02438F9EF005DBADF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 713002AF2438F9EF005DBADF /* Assets.xcassets */; };
@@ -332,6 +333,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				711C082924E0A2CE001CB121 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

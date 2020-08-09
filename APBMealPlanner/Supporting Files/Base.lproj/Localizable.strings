@@ -10,3 +10,4 @@
 
 "login_welcome" = "Welcome to Meal Planner";
 "login_prompt" = "Please login to continue";
+"continue_with_facebook" = "Continue with Facebook";
