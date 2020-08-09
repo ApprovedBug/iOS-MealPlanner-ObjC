@@ -24,8 +24,12 @@ jobs:
 
     # Static code analysis
     - name: Analyze
-      run: xcodebuild -workspace APBMealPlanner.xcworkspace -scheme APBMealPlanner -sdk iphonesimulator13.2 clean analyze
+      run: xcodebuild -workspace APBMealPlanner.xcworkspace -scheme APBMealPlanner -sdk iphonesimulator clean analyze
       
+    # Runs tests
+    - name: Test
+      run: xcodebuild clean test -workspace APBMealPlanner.xcworkspace -scheme APBMealPlanner -destination "platform=iOS Simulator,name=iPhone 11 Pro"
+
     # Builds the application
-    - name: Build and test
-      run: xcodebuild clean test -workspace APBMealPlanner.xcworkspace -scheme APBMealPlanner CODE_SIGN_IDENTITY="" -destination 'platform=iOS Simulator,OS=13.3,name=iPhone 11 Pro' CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
+    - name: Build
+      run: xcodebuild -workspace APBMealPlanner.xcworkspace -scheme APBMealPlanner -destination "generic/platform=iOS" -configuration Release build CODE_SIGNING_ALLOWED=NO
